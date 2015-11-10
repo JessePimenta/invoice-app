@@ -3,8 +3,16 @@
  */
 
 /* Move down content because we have a fixed navbar that is 50px tall */
+
+*{
+  transition: 2s;
+}
+
 body {
   padding-top: 50px;
+  font-family: monospace;
+  font-weight: bolder;
+  color: #000;
 }
 
 .img-small{
